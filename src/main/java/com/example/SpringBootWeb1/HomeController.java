@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class HomeController {
 
+
+
     @GetMapping("/hello")
     public String sayHello() {
         return "index.jsp";
